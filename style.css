@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #fff;
+    color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    /* position: fixed; */
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    /* max-height: 100%; */
+    padding: 20px 10%;
+    /* background: transparent; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo{
+    position: relative;
+    font-size: 45px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Brush Script MT", cursive;
+}
+
+.navbar a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.page1{
+    height: 100vh;
+    width: 100vw;
+}
+
+.home{
+    height: 100%;
+    width: 100vw;
+    background-position: right;
+    /* margin-left: 80px; */
+    background-size: 400px;
+    display: flex;
+    /* align-items: center; */
+    padding: 0 180px;
+    padding-left: 180px;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 100px;
+    max-width: 600px;
+}
+
+.home-content h1{
+    /* position: relative; */
+    width: max-content;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.home-content p{
+    /* position: relative; */
+    color: rgb(118, 118, 118);
+    width: 35vw;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.img1{
+    mix-blend-mode: multiply;
+    height: 580px;
+    /* right: 0; */
+    /* margin: 70px 0px 0px 0px; */
+}
+/* .man_img{
+    /* position: relative; 
+    height: 650px;
+    right: 0px;
+} */
+.socials{
+    display: flex;
+    justify-content: space-between;
+    /* position: absolut */
+    /* bottom: 40px; */
+    width: 170px;
+    margin-top: 50px;
+}
+
+.socials a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* color: black; */
+    /* color: #00abf0; */
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    /* font-size: 20px; */
+    text-decoration: none;
+}
+.bx{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.git{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+.git:hover{
+    color: white;
+    background-color: black;
+} 
+
+.socials :nth-child(2){
+    color: #1da1f2;
+    border: 2px solid #1da1f2;
+    background-color: white;
+}
+
+.socials :nth-child(2):hover{
+    color: white ;
+    background-color: #1da1f2;
+} 
+.socials :nth-child(3){
+    color: #e03e74;
+    background-color: white;
+    border: 2px solid #e03e74;
+}
+
+.socials :nth-child(3):hover{
+    color: white ;
+    background-color: #e03e74;
+} 
+.socials :nth-child(4){
+    color: #0077b5;
+    border: 2px solid #0077b5;
+    background-color: white;
+}
+
+.socials :nth-child(4):hover{
+    color: white ;
+    background-color: #0077b5;
+} 
+
+.btns{
+    display: flex;
+    gap: 3em;
+    margin: 25px 25px 0 0;
+}
+
+.btn-contact,
+.btn-resume{
+    height: 48px;
+    width: 150px;
+    cursor: pointer;
+    /* word-spacing: 2px; */
+    letter-spacing: 1px;
+    background-color: rgba(75,0,130,0.9);
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.btns :hover{
+    background-color:rgba(75, 0, 130, 0.7) ;
+}
+
+.bottom_half{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    margin-top: 50px;
+}
+
+.img2 {
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.description {
+    margin-top: 50px;
+    height: 100%;
+    width: 700px;
+}
+
+.description p{
+    color: rgb(118, 118, 118);
+    width: 35vw;
+    font-size: 20px;
+    line-height: 1.6;
+}
+

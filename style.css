@@ -212,13 +212,24 @@ body{
 .img2 {
     height: 500px;
     width: 500px;
+    top: 0;
+    left: 0;
+    /* position: absolute; */
+    margin-left: 50px;
     margin-top: 50px;
-}
+    animation: appear 5s forwards;
+    animation-timeline: view();
+    animation-iteration-count: 1;
+    /* animation-direction: ease; */
+}       
 
 .description {
     margin-top: 50px;
     height: 100%;
     width: 700px;
+    animation: appear2 5s backwards;
+    animation-iteration-count: 1;
+    animation-timeline: view();
 }
 
 .description p{
@@ -228,3 +239,12 @@ body{
     line-height: 1.6;
 }
 
+@keyframes appear{
+    from{transform: translateX(-100%);}
+    to {transform: translateX(40%);}
+}
+
+@keyframes appear2{
+    from{transform: translateX(40%);}
+    to {transform: translateX();}
+}
